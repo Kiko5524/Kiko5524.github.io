@@ -67,3 +67,53 @@ h2 {
   font-size: 0.95rem;
   padding: 10px 0 30px;
 }
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.foto-perfil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0e6ed;
+}
+
+.datos-perfil h1 {
+  margin: 0;
+  color: #1f3b57;
+}
+
+.datos-perfil .subtitulo {
+  margin: 0;
+  color: #2c5a7a;
+  font-weight: 500;
+}
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.proyecto {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #2c5a7a;
+}
+
+.proyecto h3 {
+  margin-top: 0;
+  color: #1f3b57;
+}
+
+.proyecto p {
+  margin-bottom: 0;
+  color: #555;
+}
