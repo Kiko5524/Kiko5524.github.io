@@ -75,12 +75,22 @@ h2 {
   margin-bottom: 25px;
 }
 
+
 .foto-perfil {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  object-fit: cover;
   border: 3px solid #e0e6ed;
+}
+
+.foto-marcador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfe7ef;
+  color: #1f3b57;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .datos-perfil h1 {
