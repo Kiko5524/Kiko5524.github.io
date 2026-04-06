@@ -12,7 +12,7 @@ body {
   padding: 0 20px;
 }
 
-header {
+.cabecera {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
@@ -27,8 +27,25 @@ h1 {
 }
 
 .subtitulo {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
   color: #666;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #2c5a7a;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -42,4 +59,11 @@ section {
 h2 {
   margin-top: 0;
   color: #2c5a7a;
+}
+
+.pie {
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+  padding: 10px 0 30px;
 }
