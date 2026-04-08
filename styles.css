@@ -174,4 +174,11 @@ h2 {
   .proyectos-grid {
     grid-template-columns: 1fr;
   }
+  
+  .proyecto-tech {
+    margin-top: 14px;
+    font-size: 0.92rem;
+    color: #2c5a7a;
+    font-weight: 600;
+  }  
 }
